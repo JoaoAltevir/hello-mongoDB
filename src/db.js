@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongoDB = "mongodb+srv://jaaaoo:ut6CHrvuGxcus5k7@cluster0.rf1c2.mongodb.net/test"
+const mongoDB = "mongodb+srv://jaaaoo:ut6CHrvuGxcus5k7@cluster0.rf1c2.mongodb.net/pet"
 
 
 async function main() {

@@ -15,13 +15,5 @@ const petSchema = new Schema({
 
 const Pet = db.model("Pet", petSchema);
 
-Pet.create({
-    nome: "tobi",
-})
-
-Pet.create({
-    nome: "pepsi",
-    raca: "VL"
-})
 
 module.exports = Pet
